@@ -5,8 +5,8 @@ jobs:
     docker:
       - image: circleci/python:3.7
   working_directory: ~/unittestpy
-  steps:
-  #1 Obtain repo from Github
+   steps:
+   #1 Obtain repo from Github
     - checkout
   #2 Create a virtual environment and install dependencies
     - run:
