@@ -1,7 +1,7 @@
 altair==4.2.2
 altair-data-server==0.4.1
-ansible==7.2.0
-ansible-core==2.14.2
+#ansible==7.2.0
+#ansible-core==2.14.2
 antiorm==1.2.1
 anyio==3.6.2
 apturl==0.5.2
