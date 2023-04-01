@@ -15,10 +15,12 @@ jobs:
          python3 -m venv venv
          . venv/bin/activate
          /home/circleci/unittestpy/venv/bin/python3 -m pip install --upgrade pip
-         # pip install -r requirements.txt
+         pip install -r requirements.txt
   #3 Run coding convention software plus tester.
      - run:
         name: run tests
         command: |
          . venv/bin/activate
-         python3 -m unittest assign5_unittest.py 
+         python3 -m unittest assign5_unittest.py
+     - store_test_results:
+        path: test_results 
