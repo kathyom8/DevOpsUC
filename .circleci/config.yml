@@ -15,8 +15,7 @@ jobs:
          python3 -m venv venv
          . venv/bin/activate
          /home/circleci/unittestpy/venv/bin/python3 -m pip install --upgrade pip
-         #sudo apt install libgirepository1.0-dev
-         pip install -r requirements.txt
+         # pip install -r requirements.txt
   #3 Run coding convention software plus tester.
      - run:
         name: run tests
