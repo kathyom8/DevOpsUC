@@ -4,7 +4,7 @@ altair-data-server==0.4.1
 #ansible-core==2.14.2
 antiorm==1.2.1
 anyio==3.6.2
-apturl==0.5.2
+#apturl==0.5.2
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 arrow==1.2.3
