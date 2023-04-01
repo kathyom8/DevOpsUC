@@ -44,7 +44,7 @@ docker==5.0.3
 docker-compose==1.29.2
 dockerpty==0.4.1
 docopt==0.6.2
-duplicity==0.8.21
+#duplicity==0.8.21
 entrypoints==0.4
 exceptiongroup==1.1.1
 executing==1.2.0
