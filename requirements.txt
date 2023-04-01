@@ -150,7 +150,7 @@ pyRFC3339==1.1
 pyrsistent==0.19.3
 pytest==7.2.2
 pytest-cov==4.0.0
-python-apt==2.4.0+ubuntu1
+#python-apt==2.4.0+ubuntu1
 python-crontab==2.7.1
 python-dateutil==2.8.2
 python-debian===0.1.43ubuntu1
