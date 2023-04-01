@@ -59,7 +59,7 @@ fqdn==1.5.1
 future==0.18.2
 gitdb==4.0.10
 GitPython==3.1.31
-gyp==0.1
+#gyp==0.1
 httplib2==0.20.2
 idna==3.3
 ijson==3.2.0.post0
