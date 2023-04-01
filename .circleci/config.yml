@@ -8,9 +8,9 @@ jobs:
     steps:
    #1 Obtain repo from Github
      - checkout
-  #2 Create a virtual environment and install dependencies
+  #2 Create a virtual environment and upgrade python3
      - run:
-        name: install dependencies
+        name: create venv and upgrade python3
         command: |
          python3 -m venv venv
          . venv/bin/activate
