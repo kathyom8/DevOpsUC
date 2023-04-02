@@ -25,8 +25,7 @@ jobs:
         command: |
           . venv/bin/activate
           git clone https://github.com/aframevr/aframe.git
-	  cd aframe-https
-	  npm run dist
+          cd aframe-https
+          npm run dist
      - store_test_results:
         path: ~/DEPLOY-04012023/test-results
-
