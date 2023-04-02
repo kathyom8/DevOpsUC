@@ -17,7 +17,9 @@ jobs:
          /home/circleci/DEPLOY-04012023/venv/bin/python3 -m pip install --upgrade pip
          tee /home/circleci/DEPLOY-04012023/test-results
          python -m pip install gitpython
-         npm install
+         pip install nodeenv
+         nodeenv -p
+         npm install -g npm
          npm start
   #3 Run coding convention software plus tester.
      - run:
