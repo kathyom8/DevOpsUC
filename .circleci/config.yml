@@ -10,7 +10,7 @@ jobs:
      - checkout
   #2 Create a virtual environment and install dependencies
      - run:
-        name: creating env and installing dependencies
+        name: creating env and installing 
         command: |
          python3 -m venv venv
          . venv/bin/activate
